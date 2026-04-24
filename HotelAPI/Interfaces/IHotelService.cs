@@ -1,6 +1,6 @@
-using Hotel_Booking_Backend.DTOs.Hotel;
+using HotelAPI.DTOs.Hotel;
 
-namespace Hotel_Booking_Backend.Interfaces
+namespace HotelAPI.Interfaces
 {
     public interface IHotelService
     {

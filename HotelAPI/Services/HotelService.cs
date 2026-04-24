@@ -1,13 +1,12 @@
-using Hotel_Booking_Backend.Data;
-using Hotel_Booking_Backend.DTOs.Hotel;
-using Hotel_Booking_Backend.Interfaces;
-using Hotel_Booking_Backend.Models;
 using HotelAPI.Data;
+using HotelAPI.DTOs.Hotel;
+using HotelAPI.Interfaces;
 using HotelAPI.Models;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 
-namespace Hotel_Booking_Backend.Services
+namespace HotelAPI.Services
 {
     public class HotelService : IHotelService
     {
