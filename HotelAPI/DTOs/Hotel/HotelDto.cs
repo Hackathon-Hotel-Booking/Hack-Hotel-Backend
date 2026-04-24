@@ -1,4 +1,4 @@
-namespace Hotel_Booking_Backend.DTOs.Hotel
+namespace HotelAPI.DTOs.Hotel
 {
     public class HotelDto
     {

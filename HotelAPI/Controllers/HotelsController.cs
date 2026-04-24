@@ -1,10 +1,10 @@
-using Hotel_Booking_Backend.DTOs.Hotel;
-using Hotel_Booking_Backend.Interfaces;
+using HotelAPI.DTOs.Hotel;
+using HotelAPI.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 
-namespace Hotel_Booking_Backend.Controllers
+namespace HotelAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
